@@ -1,4 +1,4 @@
-package com.zhangfeng.data;
+package com.zhangfeng.data.cache;
 
 import java.util.*;
 

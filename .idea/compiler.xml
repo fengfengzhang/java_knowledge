@@ -12,8 +12,5 @@
         <module name="java_ee" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java_ee" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

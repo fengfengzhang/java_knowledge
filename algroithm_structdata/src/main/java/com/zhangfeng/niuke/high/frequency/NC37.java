@@ -1,9 +1,7 @@
 package com.zhangfeng.niuke.high.frequency;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
-import java.util.PriorityQueue;
 
 /**
  * @ClassName NC37

@@ -1,6 +1,5 @@
 package com.zhangfeng.niuke.high.frequency;
 
-import java.util.List;
 
 /**
  * @ClassName NC50

@@ -108,7 +108,7 @@ public class Sort {
     }
 
     /**
-     * 快速排序。选则标兵，划分。两个数组，左侧比我大右侧比我小，递归处理子数组
+     * 快速排序。选则标兵进行划分，左侧比我小右侧比我大，递归处理子数组
      */
     public static void quickSort(int[] arr, int start ,int end ){
         if(start < end){
@@ -133,7 +133,7 @@ public class Sort {
     }
 
     /**
-     * 堆排序，构建一个大顶堆，维护大顶堆的插入，取出逻辑，每次和最后一个交换位置
+     * 堆排序，构建一个大顶堆，维护大顶堆的插入，取出逻辑，第一个元素和要排的第i大的元素交换位置
      */
     public static void heapSort(int[] arr){
         for(int i = 0; i < arr.length ; i++){
@@ -185,7 +185,7 @@ public class Sort {
 
     /**
      * 基数排序
-     * 基于桶，按照高为或者低位排
+     * 基于桶，按照高位或者低位排
      */
     public static void radixSort(int[] arr){
         int max = Integer.MIN_VALUE;
@@ -224,7 +224,7 @@ public class Sort {
 
     /**
      * 插入排序，前面已经是单调递增有序了，新来的，往前面插找到位置，在找到位置之前
-     * 那些不是的位置依次往后面错一位
+     * 那些不满足的位置依次往后面错一位
      */
     public static void insertSort(int[] arr){
         for(int i = 1; i < arr.length  ; i++){
@@ -240,7 +240,7 @@ public class Sort {
     }
 
     /**
-     * 希尔排序，步骤为d的插入排序
+     * 希尔排序，步长为d的插入排序
      */
     public static void shellSort(int[] arr){
         for(int d = arr.length/2 ; d >0 ; d/=2){

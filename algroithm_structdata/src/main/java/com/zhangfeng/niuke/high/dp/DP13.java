@@ -1,4 +1,4 @@
-package com.zhangfeng.niuke.high.frequency;
+package com.zhangfeng.niuke.high.dp;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;

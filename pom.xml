@@ -12,6 +12,7 @@
         <module>algroithm_structdata</module>
         <module>java_thread</module>
         <module>java_ee</module>
+        <module>java_mybatis</module>
     </modules>
 
     <properties>

@@ -21,13 +21,13 @@ public class BM34 {
     }
 
     public class TreeInfo{
-        int minHight;
-        int maxHight;
+        int minValue;
+        int maxValue;
         boolean isSearch;
 
-        public TreeInfo(int minHight, int maxHight, boolean isSearch) {
-            this.minHight = minHight;
-            this.maxHight = maxHight;
+        public TreeInfo(int minValue, int maxValue, boolean isSearch) {
+            this.minValue = minValue;
+            this.maxValue = maxValue;
             this.isSearch = isSearch;
         }
     }
@@ -38,11 +38,11 @@ public class BM34 {
         TreeInfo rightTreeInfo = process(root.right);
 
         if(leftTreeInfo.isSearch && rightTreeInfo.isSearch &&
-                leftTreeInfo.maxHight < root.val && root.val < rightTreeInfo.minHight){
+                leftTreeInfo.maxValue < root.val && root.val < rightTreeInfo.minValue){
 
             return new TreeInfo(
-                    Math.min(Math.min(root.val,leftTreeInfo.minHight), rightTreeInfo.minHight),
-                    Math.max(Math.max(root.val,leftTreeInfo.maxHight),rightTreeInfo.maxHight),
+                    Math.min(Math.min(root.val,leftTreeInfo.minValue), rightTreeInfo.minValue),
+                    Math.max(Math.max(root.val,leftTreeInfo.maxValue),rightTreeInfo.maxValue),
                     true
                     );
         }

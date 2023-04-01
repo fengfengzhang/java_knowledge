@@ -28,13 +28,12 @@ public class CounterLimiter implements  TrafficLimiter
                return true;
            }
            reqCount ++;
-           return false;
        }else{
            //开始新的时间窗口
            timeStamp = now;
            //重置计数器
            reqCount = 1;
-           return false;
        }
+        return false;
     }
 }

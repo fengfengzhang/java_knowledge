@@ -10,7 +10,7 @@ import java.util.ArrayList;
  */
 public class Random {
 
-    public static String getServer(){
+    public static String randomByWeight2(){
         int totalWeight = 0;
         for(Integer weight : ServerIps.WEIGHT_LIST.values()){
              totalWeight += weight;
@@ -32,7 +32,7 @@ public class Random {
 
     }
 
-    private static String fun1() {
+    private static String randomByWeight1() {
         ArrayList<String> ips = new ArrayList<>();
 
         for(String ip : ServerIps.WEIGHT_LIST.keySet()) {
@@ -48,9 +48,15 @@ public class Random {
         return ips.get(randomPos);
     }
 
+    public static String random(){
+        java.util.Random random = new java.util.Random();
+        int pos = random.nextInt(ServerIps.List.size());
+        return ServerIps.List.get(pos);
+    }
+
     public static void main(String[] args) {
         for(int i = 0; i < 10; i++){
-            System.out.println(getServer());
+            System.out.println(randomByWeight2());
         }
     }
 }

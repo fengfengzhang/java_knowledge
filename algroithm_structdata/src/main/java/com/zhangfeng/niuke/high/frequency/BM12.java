@@ -1,4 +1,4 @@
-package com.zhangfeng.niuke.high.dp;
+package com.zhangfeng.niuke.high.frequency;
 
 /**
  * @ClassName BM12

@@ -25,40 +25,32 @@ public class DP40 {
         for(int i = 0; i < n ; i++){
             arr[i] = scanner.nextLong();
         }
-
         System.out.println(process(arr,k));
+
     }
 
     public static long process(long[] arr ,int k){
 
         //前i个数取和余数是k的时候的最大值
         long[][] dp = new long[arr.length][k];
-       /* for(long[] a : dp){
-            Arrays.fill(a,Long.MIN_VALUE);
-        }*/
 
         for(int i = 0; i < k ; i++){
             dp[0][i] = (arr[0] % k == i) ? arr[0] : 0;
         }
 
-
-
         for(int i = 1; i < dp.length ; i++){
             for(int j = 0; j < k ; j++){
-                dp[i][(int)((j + arr[i]) % k)] = Math.max(dp[i-1][j] + arr[i],dp[i-1][(int)((j + arr[i]) % k)]);
+                //上一轮余数+arr[i] %k 得到现在可以计算的余数位置，上一轮的余数总和，上一轮如果余数并不存在，就不能进行计算
+                dp[i][(int)((j + arr[i]) % k)] = Math.max((dp[i-1][j] > 0 || j == 0) ? dp[i-1][j] + arr[i] : 0,
+                        dp[i-1][(int)((j + arr[i]) % k)]);
             }
         }
 
-        if(dp[arr.length - 1][0] <= 0){
+        if(dp[arr.length - 1][0] == 0){
             return  -1;
         }
-
-
         return dp[arr.length-1][0];
-
-
     }
-
 
 }
 

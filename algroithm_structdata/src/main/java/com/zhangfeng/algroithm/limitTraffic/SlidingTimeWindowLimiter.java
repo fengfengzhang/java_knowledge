@@ -11,7 +11,7 @@ import java.util.LinkedList;
 public class SlidingTimeWindowLimiter implements  TrafficLimiter{
     //服务器最近1秒内的访问次数。可以放在redis中，实现分布式系统的访问计数
     private int reqCount;
-    //使用LinkedList来记录华东窗口的10个格子
+    //使用LinkedList来记录滑动窗口的10个格子
     private LinkedList<Integer> slots = new LinkedList<>(); //替换成redis中list,实现分布式
     private int limitNum = 100;//每秒限流的最大请求数
     private long windowLength = 100L;//滑动时间窗口里每个时间的长度，单位毫秒

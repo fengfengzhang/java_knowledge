@@ -67,7 +67,7 @@ public class DP41 {
         for(int i = 1; i < dp2.length ; i++){
             for(int j = 1; j < dp2[0].length ; j++){
                 if(vArr[i-1] <= j){
-                    dp2[i][j] = vArr[i-1] == j && wArr[i-1] > dp2[i][j] ? wArr[i-1] : dp2[i][j];
+                    dp2[i][j] = vArr[i-1] == j ? wArr[i-1] : dp2[i][j];
                     if(vArr[i-1] < j && dp2[i-1][j-vArr[i-1]] > 0){
                         dp2[i][j] = Math.max(dp2[i][j],dp2[i-1][j-vArr[i-1]] + wArr[i-1]);
                     }

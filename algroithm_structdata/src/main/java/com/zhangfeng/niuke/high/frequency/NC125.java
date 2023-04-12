@@ -8,7 +8,7 @@ import java.util.HashMap;
  * @Author zhangfeng
  * @Date 2023/3/15 11:35
  */
-public class N125 {
+public class NC125 {
     /**
      * 给定一个无序数组 arr , 其中元素可正、可负、可0。给定一个整数 k ，求 arr 所有连续子数组中累加和为k的最长连续子数组长度。保证至少存在一个合法的连续子数组。
      * [1,2,3]的连续子数组有[1,2]，[2,3]，[1,2,3] ，但是[1,3]不是
@@ -44,6 +44,6 @@ public class N125 {
 
     public static void main(String[] args) {
         int[] arr = new int[]{1,-2,1,1,1};
-        System.out.println(new N125().maxlenEqualK(arr, 0));
+        System.out.println(new NC125().maxlenEqualK(arr, 0));
     }
 }

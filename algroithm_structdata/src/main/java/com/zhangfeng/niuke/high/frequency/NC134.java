@@ -6,7 +6,7 @@ package com.zhangfeng.niuke.high.frequency;
  * @Author zhangfeng
  * @Date 2023/3/14 11:19
  */
-public class NC143 {
+public class NC134 {
     /**
      * 假设你有一个数组prices，长度为n，其中prices[i]是某只股票在第i天的价格，请根据这个价格数组，返回买卖股票能获得的最大收益
      * 1. 你可以多次买卖该只股票，但是再次购买前必须卖出之前的股票
@@ -66,6 +66,6 @@ public class NC143 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new NC143().maxProfit2(new int[]{8, 9, 2, 5, 4, 7, 1}));
+        System.out.println(new NC134().maxProfit2(new int[]{8, 9, 2, 5, 4, 7, 1}));
     }
 }

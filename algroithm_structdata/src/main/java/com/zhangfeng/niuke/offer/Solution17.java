@@ -27,8 +27,9 @@ public class Solution17 {
 
         for(int i = 1; i < pattern.length() ; i++){
             if(pattern.charAt(i) == '*'){
-                dp[i][0] = pattern.charAt(i-1) == str.charAt(0) || pattern.charAt(0) == '.';
-                dp[i][0] = i >= 2 ? dp[i][0] || dp[i-2][0] : dp[i][0];
+//                dp[i][0] = pattern.charAt(i-1) == str.charAt(0) || pattern.charAt(0) == '.';
+//                dp[i][0] = i >= 2 ? dp[i][0] || dp[i-2][0]  : dp[i][0];
+                dp[i][0] = i >= 2 ? dp[i-1][0] || dp[i-2][0]  : dp[i-1][0];
             }else{
                 //必须和一个字符匹配，看看前面是否等价成了空串
                 int index = i - 1;

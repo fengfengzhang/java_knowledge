@@ -13,7 +13,7 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class ThreadPrint {
 
-    public static class Print{
+    public static class PrintByLock {
         List<String> list = Arrays.asList("A","B","C");
         Lock lock = new ReentrantLock();
         Condition conditionA = lock.newCondition();
@@ -91,28 +91,120 @@ public class ThreadPrint {
     }
 
 
+    public static class PrintBySync{
+        public final Object obj = new Object();
+        List<String> list = Arrays.asList("A","B","C");
+        int index = 0;
+
+        public void printA(){
+            synchronized (obj){
+                try {
+                     while (!list.get(index).equals("A")){
+                       obj.wait();
+                    }
+
+                    System.out.println(Thread.currentThread().getName() + " A");
+                     index ++;
+                     index = index%list.size();
+                     obj.notifyAll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                }
+        }
+
+        public void printB(){
+            synchronized (obj){
+                try {
+                     while (!list.get(index).equals("B")){
+                       obj.wait();
+                    }
+
+                    System.out.println(Thread.currentThread().getName() + " B");
+                     index ++;
+                     index = index%list.size();
+                     obj.notifyAll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                }
+        }
+
+        public void printC(){
+            synchronized (obj){
+                try {
+                     while (!list.get(index).equals("C")){
+                       obj.wait();
+                    }
+
+                    System.out.println(Thread.currentThread().getName() + " C");
+                     index ++;
+                     index = index%list.size();
+                     obj.notifyAll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                }
+        }
+
+
+
+    }
+
+
+
+
     public static void main(String[] args) throws InterruptedException {
-        Print print = new Print();
+//        lockPrint();
+
+//        syncPrint();
+
+
+    }
+
+    private static void syncPrint() {
+        PrintBySync print = new PrintBySync();
         Thread a = new Thread(() -> {
             for (int i = 0; i < 15; i++) {
                 print.printA();
             }
-        }, "A");
+        }, "线程A");
         Thread b = new Thread(() -> {
             for (int i = 0; i < 15; i++) {
                 print.printB();
             }
-        }, "B");
+        }, "线程B");
         Thread c = new Thread(() -> {
             for (int i = 0; i < 15; i++) {
                 print.printC();
             }
-        }, "C");
+        }, "线程C");
 
         a.start();
         b.start();
         c.start();
+    }
 
+    private static void lockPrint() {
+        PrintByLock print = new PrintByLock();
+        Thread a = new Thread(() -> {
+            for (int i = 0; i < 15; i++) {
+                print.printA();
+            }
+        }, "线程A");
+        Thread b = new Thread(() -> {
+            for (int i = 0; i < 15; i++) {
+                print.printB();
+            }
+        }, "线程B");
+        Thread c = new Thread(() -> {
+            for (int i = 0; i < 15; i++) {
+                print.printC();
+            }
+        }, "线程C");
 
+        a.start();
+        b.start();
+        c.start();
     }
 }

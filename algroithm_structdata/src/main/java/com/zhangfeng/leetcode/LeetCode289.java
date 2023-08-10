@@ -9,9 +9,7 @@ public class LeetCode289 {
 
         int[][] preBoard = new int[board.length][board[0].length];
         for(int i = 0; i < board.length ; i++){
-            for (int j = 0; j < board[i].length ; j++){
-                preBoard[i][j] = board[i][j];
-            }
+            System.arraycopy(board[i], 0, preBoard[i], 0, board[i].length);
         }
 
 
@@ -67,18 +65,10 @@ public class LeetCode289 {
         if(cur == 1){
             if(sum < 2){
                 return false;
-            }else if(sum == 2 || sum == 3){
-                return true;
-            }else{
-                return false;
-            }
+            }else return sum == 2 || sum == 3;
 
         }else{
-            if(sum == 3){
-                return true;
-            }else{
-                return false;
-            }
+            return sum == 3;
         }
 
     }

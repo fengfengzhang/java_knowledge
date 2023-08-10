@@ -8,8 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="algroithm_structdata" />
-        <module name="java_thread" />
         <module name="java_ee" />
+        <module name="java_thread" />
         <module name="java_mybatis" />
       </profile>
     </annotationProcessing>

@@ -3,7 +3,7 @@ package com.zhangfeng.leetcode;
 public class LeetCode73 {
 
     public void setZeroes(int[][] matrix) {
-        if (matrix == null || matrix[0] == null || matrix.length == 0 || matrix[0].length == 0){
+        if (matrix == null || matrix[0] == null || matrix[0].length == 0){
             return;
         }
 

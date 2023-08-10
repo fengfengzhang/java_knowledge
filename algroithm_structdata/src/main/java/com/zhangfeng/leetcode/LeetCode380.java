@@ -39,16 +39,20 @@ public class LeetCode380 {
                return false;
            }
 
+            int lastData = list.get(list.size() - 1);
+
             int index = map.get(val);
+            map.put(lastData,index);
+
             map.remove(val);
 
-            list.set(index,list.get(list.size() - 1));
+            list.set(index,lastData);
             list.remove(list.size() - 1);
             return true;
         }
 
         public int getRandom() {
-           int index = (int)(Math.random() * (list.size() + 1));
+           int index = (int)(Math.random() * list.size());
            return list.get(index);
         }
     }

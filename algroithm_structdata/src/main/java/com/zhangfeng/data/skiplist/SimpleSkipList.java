@@ -1,6 +1,8 @@
 package com.zhangfeng.data.skiplist;
 
 import java.util.Random;
+import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.concurrent.ConcurrentSkipListSet;
 
 /**
  * @ClassName SimpleSkipList
@@ -83,6 +85,10 @@ public class SimpleSkipList {
     public void addNode(int element){
         Node currentNode = findNode(element);
 
+        if (currentNode.value == element){
+            return;
+        }
+
         Node newNode = new Node(element);
 
         newNode.pre = currentNode;
@@ -90,6 +96,7 @@ public class SimpleSkipList {
         newNode.next.pre = newNode;
         currentNode.next = newNode;
         int current = 0;
+        boolean flag = false;
         while(random.nextInt() < 0.5){
             if(current >= height){
                 height ++;
@@ -107,6 +114,8 @@ public class SimpleSkipList {
 
                 head = newHead;
                 tail = newTail;
+                flag = true;
+
             }
             while(currentNode.up == null){
                 currentNode = currentNode.pre;
@@ -126,8 +135,17 @@ public class SimpleSkipList {
 
             newNode = newUpNode;
 
-            current ++;
+//            current ++;
 
+
+           /* if(current + 1 == height){
+                return;
+            }*/
+
+            if(flag){
+                return;
+            }
+            current ++;
 
         }
 
@@ -141,11 +159,13 @@ public class SimpleSkipList {
         int h = height + 1;
         while(currentNode != null){
             temp = currentNode.next;
-            System.out.printf("%d =>", h);
+            System.out.printf("%d :", h);
+            System.out.print("head_node ->");
             while(temp.flag != Flag.TAIL_FLAG){
                 System.out.printf(" %d ->",temp.value);
                 temp = temp.next;
             }
+            System.out.print("tail_node");
             h --;
             System.out.println();
             currentNode = currentNode.down;
@@ -155,11 +175,13 @@ public class SimpleSkipList {
     public static void main(String[] args) {
         Random random = new Random(System.currentTimeMillis());
         SimpleSkipList simpleSkipList = new SimpleSkipList();
-        for(int i = 0; i< 20 ;i ++){
-            simpleSkipList.addNode(random.nextInt(100));
+        for(int i = 0; i< 200 ;i ++){
+            simpleSkipList.addNode(random.nextInt(200));
         }
 
         simpleSkipList.print();
+
+//        ConcurrentSkipListMap<Integer,Integer> skipListMap = new ConcurrentSkipListMap<>();
     }
 }
 

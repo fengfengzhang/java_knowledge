@@ -94,7 +94,7 @@ public class NC164 {
                 int end = list.size() - 1 ;
                 while (start <= end) {
                     int middle = (end + start) / 2;
-                    if (list.get(middle) <= j) {
+                    if (list.get(middle) < j) {
                         start = middle + 1; // 在右半区继续查找
                     } else {
                         end = middle -1; // 在左半区继续查找

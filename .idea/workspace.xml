@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go_workspace/go1.21.4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/niuke/high/frequency/NC27.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2T9V5CUCPP6rgqrgxMXwXvn9Rz4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhangfeng/idea_worksapce/java_knowledge&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LeetCode560">
+    <configuration name="LeetCode1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode1143" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode209" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode32" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode416" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode416" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode560" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode560" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LeetCode560" />
+        <item itemvalue="Application.LeetCode209" />
+        <item itemvalue="Application.LeetCode416" />
+        <item itemvalue="Application.LeetCode1143" />
+        <item itemvalue="Application.LeetCode32" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-266795519c66-911b893a1778-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.13135.104" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="" />
+      <created>1690455097323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690455097323</updated>
+      <workItem from="1690455098444" duration="1339000" />
+      <workItem from="1690512612928" duration="13000" />
+      <workItem from="1690514414896" duration="11000" />
+      <workItem from="1691547491487" duration="158000" />
+      <workItem from="1691633422684" duration="705000" />
+      <workItem from="1691648457440" duration="5587000" />
+      <workItem from="1691659420187" duration="5689000" />
+      <workItem from="1691723617930" duration="8000" />
+      <workItem from="1691723684370" duration="6405000" />
+      <workItem from="1692675433932" duration="121000" />
+      <workItem from="1692695697299" duration="438000" />
+      <workItem from="1692696326699" duration="64000" />
+      <workItem from="1692696430951" duration="67000" />
+      <workItem from="1692696704742" duration="15000" />
+      <workItem from="1692696732435" duration="10000" />
+      <workItem from="1692700292284" duration="636000" />
+      <workItem from="1692935076413" duration="444000" />
+      <workItem from="1693375773306" duration="257000" />
+      <workItem from="1693475404206" duration="663000" />
+      <workItem from="1693983361711" duration="640000" />
+      <workItem from="1693995512103" duration="16000" />
+      <workItem from="1694076464504" duration="557000" />
+      <workItem from="1694140308842" duration="3190000" />
+      <workItem from="1694508141784" duration="2015000" />
+      <workItem from="1694511380978" duration="26000" />
+      <workItem from="1695882026048" duration="171000" />
+      <workItem from="1695889608444" duration="906000" />
+      <workItem from="1695890636529" duration="218000" />
+      <workItem from="1696927250206" duration="1477000" />
+      <workItem from="1697793297237" duration="2367000" />
+      <workItem from="1698919915543" duration="2106000" />
+      <workItem from="1699858983237" duration="38000" />
+      <workItem from="1699874953759" duration="4000" />
+      <workItem from="1700041696855" duration="18000" />
+      <workItem from="1700203584557" duration="167000" />
+      <workItem from="1700478029940" duration="1153000" />
+      <workItem from="1703500185170" duration="2123000" />
+      <workItem from="1703562898097" duration="873000" />
+      <workItem from="1704189422958" duration="30000" />
+      <workItem from="1704189831732" duration="137000" />
+      <workItem from="1704190055209" duration="6000" />
+      <workItem from="1704190207746" duration="28000" />
+      <workItem from="1704190349638" duration="135000" />
+      <workItem from="1704190641836" duration="18000" />
+      <workItem from="1704190994177" duration="23000" />
+      <workItem from="1704194359332" duration="198000" />
+      <workItem from="1704195075983" duration="30000" />
+      <workItem from="1704195838274" duration="75000" />
+      <workItem from="1704199178843" duration="5095000" />
+      <workItem from="1704261777444" duration="382000" />
+      <workItem from="1704423751782" duration="2190000" />
+      <workItem from="1706100460536" duration="635000" />
+      <workItem from="1709188061403" duration="615000" />
+      <workItem from="1709635477742" duration="8000" />
+      <workItem from="1709635489194" duration="2000" />
+      <workItem from="1709799755162" duration="496000" />
+      <workItem from="1709890610221" duration="1393000" />
+      <workItem from="1710474951089" duration="737000" />
+      <workItem from="1710482402365" duration="4000" />
+      <workItem from="1710813660672" duration="23000" />
+      <workItem from="1711705545683" duration="907000" />
+      <workItem from="1714293841003" duration="749000" />
+      <workItem from="1714360057873" duration="72000" />
+      <workItem from="1714360804105" duration="612000" />
+      <workItem from="1714381704730" duration="2412000" />
+      <workItem from="1714986790706" duration="6344000" />
+      <workItem from="1715158154503" duration="6163000" />
+      <workItem from="1715237755999" duration="13000" />
+      <workItem from="1715238787355" duration="3795000" />
+      <workItem from="1715322443799" duration="649000" />
+      <workItem from="1715325370345" duration="5270000" />
+      <workItem from="1715827607078" duration="6329000" />
+      <workItem from="1715912013992" duration="5820000" />
+      <workItem from="1716373897769" duration="2722000" />
+      <workItem from="1716543592075" duration="1222000" />
+      <workItem from="1717052253798" duration="884000" />
+      <workItem from="1717054234356" duration="812000" />
+      <workItem from="1717057915257" duration="18000" />
+      <workItem from="1717645095330" duration="12000" />
+      <workItem from="1718173344554" duration="2893000" />
+      <workItem from="1718179939904" duration="2019000" />
+      <workItem from="1718958052447" duration="69000" />
+      <workItem from="1720428859916" duration="52000" />
+      <workItem from="1720749427981" duration="2753000" />
+      <workItem from="1724137344444" duration="4550000" />
+      <workItem from="1724207171541" duration="2866000" />
+      <workItem from="1724211558806" duration="2907000" />
+      <workItem from="1724833680570" duration="2196000" />
+      <workItem from="1724897731476" duration="64000" />
+      <workItem from="1724920670791" duration="1510000" />
+      <workItem from="1728628449183" duration="7501000" />
+      <workItem from="1728720345954" duration="5941000" />
+      <workItem from="1732705542807" duration="1105000" />
+      <workItem from="1733106837056" duration="300000" />
+      <workItem from="1733107416990" duration="38000" />
+      <workItem from="1735029717164" duration="3094000" />
+      <workItem from="1735115588145" duration="637000" />
+      <workItem from="1735289489115" duration="3226000" />
+      <workItem from="1735551447443" duration="3129000" />
+      <workItem from="1735627534264" duration="10466000" />
+      <workItem from="1738469975886" duration="1490000" />
+      <workItem from="1738830553263" duration="3000" />
+      <workItem from="1738998242127" duration="4101000" />
+      <workItem from="1739177641788" duration="6807000" />
+      <workItem from="1739786749769" duration="58000" />
+      <workItem from="1739934184234" duration="1178000" />
+      <workItem from="1740638510443" duration="144000" />
+      <workItem from="1741431917233" duration="1009000" />
+      <workItem from="1742805803478" duration="330000" />
+      <workItem from="1742806179492" duration="4145000" />
+      <workItem from="1743579139067" duration="3333000" />
+      <workItem from="1743582502724" duration="872000" />
+      <workItem from="1744713749664" duration="653000" />
+      <workItem from="1744966662301" duration="713000" />
+      <workItem from="1744967379627" duration="126000" />
+      <workItem from="1745742590891" duration="2860000" />
+      <workItem from="1745745465454" duration="407000" />
+      <workItem from="1745746283093" duration="805000" />
+      <workItem from="1745820806053" duration="19000" />
+      <workItem from="1745822861582" duration="2899000" />
+      <workItem from="1745834236018" duration="2091000" />
+      <workItem from="1745998245295" duration="1494000" />
+      <workItem from="1747218552349" duration="3482000" />
+      <workItem from="1747380840435" duration="1433000" />
+      <workItem from="1747382286104" duration="48000" />
+      <workItem from="1747382355105" duration="3189000" />
+      <workItem from="1747650623396" duration="2000" />
+      <workItem from="1747884977839" duration="2000" />
+      <workItem from="1747985533304" duration="4084000" />
+      <workItem from="1748585783730" duration="2156000" />
+      <workItem from="1748594559331" duration="8424000" />
+      <workItem from="1749019811261" duration="17000" />
+      <workItem from="1749019831738" duration="132000" />
+      <workItem from="1749020781419" duration="437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode32.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode32.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

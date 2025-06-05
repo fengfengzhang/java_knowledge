@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="" />
+    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +72,7 @@
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode560">
+  <component name="RunManager" selected="Application.LeetCode3">
     <configuration name="LeetCode1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode1143" />
       <module name="algroithm_structdata" />
@@ -97,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode32" />
+    <configuration name="LeetCode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode3" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode3" />
         <item itemvalue="Application.LeetCode560" />
         <item itemvalue="Application.LeetCode209" />
         <item itemvalue="Application.LeetCode416" />
         <item itemvalue="Application.LeetCode1143" />
-        <item itemvalue="Application.LeetCode32" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +299,9 @@
       <workItem from="1748594559331" duration="8424000" />
       <workItem from="1749019811261" duration="17000" />
       <workItem from="1749019831738" duration="132000" />
-      <workItem from="1749020781419" duration="853000" />
+      <workItem from="1749020781419" duration="1800000" />
+      <workItem from="1749026667817" duration="479000" />
+      <workItem from="1749118165937" duration="651000" />
     </task>
     <servers />
   </component>
@@ -330,6 +334,11 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode32.java</url>
           <line>25</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

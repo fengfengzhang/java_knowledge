@@ -72,9 +72,9 @@
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode3">
-    <configuration name="LeetCode1143" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode1143" />
+  <component name="RunManager" selected="Application.LeetCode234">
+    <configuration name="LeetCode209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode209" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode209" />
+    <configuration name="LeetCode234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode234" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode234" />
         <item itemvalue="Application.LeetCode3" />
         <item itemvalue="Application.LeetCode560" />
         <item itemvalue="Application.LeetCode209" />
         <item itemvalue="Application.LeetCode416" />
-        <item itemvalue="Application.LeetCode1143" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +301,8 @@
       <workItem from="1749019831738" duration="132000" />
       <workItem from="1749020781419" duration="1800000" />
       <workItem from="1749026667817" duration="479000" />
-      <workItem from="1749118165937" duration="651000" />
+      <workItem from="1749118165937" duration="795000" />
+      <workItem from="1749190922223" duration="1468000" />
     </task>
     <servers />
   </component>
@@ -339,6 +340,21 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode3.java</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode234.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode234.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode234.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

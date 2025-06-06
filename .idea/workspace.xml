@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -303,7 +301,7 @@
       <workItem from="1749026667817" duration="479000" />
       <workItem from="1749118165937" duration="795000" />
       <workItem from="1749190922223" duration="4864000" />
-      <workItem from="1749200778822" duration="1490000" />
+      <workItem from="1749200778822" duration="1797000" />
     </task>
     <servers />
   </component>
@@ -361,6 +359,11 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode994.java</url>
           <line>22</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode994.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

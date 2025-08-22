@@ -72,7 +72,20 @@
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode17">
+  <component name="RunManager" selected="Application.LeetCode11">
+    <configuration name="LeetCode11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode11" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode17 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode17" />
       <module name="algroithm_structdata" />
@@ -88,19 +101,6 @@
     </configuration>
     <configuration name="LeetCode17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode17" />
-      <module name="algroithm_structdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode234" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode11" />
         <item itemvalue="Application.LeetCode17" />
         <item itemvalue="Application.LeetCode17 (1)" />
         <item itemvalue="Application.LeetCode39" />
         <item itemvalue="Application.LeetCode994" />
-        <item itemvalue="Application.LeetCode234" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +310,8 @@
       <workItem from="1749608371115" duration="17000" />
       <workItem from="1749698362854" duration="3000" />
       <workItem from="1750922600766" duration="295000" />
-      <workItem from="1752203567389" duration="5428000" />
+      <workItem from="1752203567389" duration="6092000" />
+      <workItem from="1755855374441" duration="333000" />
     </task>
     <servers />
   </component>

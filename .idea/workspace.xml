@@ -72,7 +72,7 @@
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode739">
+  <component name="RunManager" selected="Application.LeetCode394">
     <configuration name="LeetCode208 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode208" />
       <module name="algroithm_structdata" />
@@ -112,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode208" />
+    <configuration name="LeetCode394" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode394" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode394" />
         <item itemvalue="Application.LeetCode739" />
         <item itemvalue="Application.LeetCode208 (3)" />
         <item itemvalue="Application.LeetCode208 (2)" />
         <item itemvalue="Application.LeetCode208 (1)" />
-        <item itemvalue="Application.LeetCode208" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +315,8 @@
       <workItem from="1756453395417" duration="2338000" />
       <workItem from="1756455751291" duration="946000" />
       <workItem from="1757667573645" duration="635000" />
-      <workItem from="1758534000165" duration="1526000" />
+      <workItem from="1758534000165" duration="1668000" />
+      <workItem from="1758535683466" duration="1120000" />
     </task>
     <servers />
   </component>

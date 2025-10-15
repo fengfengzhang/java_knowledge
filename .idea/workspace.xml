@@ -317,7 +317,7 @@
       <workItem from="1757667573645" duration="635000" />
       <workItem from="1758534000165" duration="1668000" />
       <workItem from="1758535683466" duration="2226000" />
-      <workItem from="1760520427624" duration="311000" />
+      <workItem from="1760520427624" duration="999000" />
     </task>
     <servers />
   </component>
@@ -375,6 +375,11 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode17.java</url>
           <line>42</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode24.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

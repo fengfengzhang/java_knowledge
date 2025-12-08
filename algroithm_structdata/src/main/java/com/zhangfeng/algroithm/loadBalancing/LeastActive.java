@@ -31,56 +31,68 @@ public class LeastActive {
      * 优先选择活跃次数小的，然后比较权重，权重相同返回随机一个
      * @return
      */
-    public static  String getServer(){
-        //找出当前活跃数最小的服务器
-        Optional<Integer> minValue = ACTIVITY_LIST.values().stream().min(Comparator.naturalOrder());
+    public static String getServer(){
+        // 1. 找出当前活跃数最小的服务器
+        Optional<Integer> minValue = ACTIVITY_LIST.values().stream()
+                .min(Comparator.naturalOrder());
+
         if(minValue.isPresent()){
+            int minActivity = minValue.get();
+
+            // 2. ✅ 找出所有活跃数等于最小值的服务器
             List<String> minActivityIps = new ArrayList<>();
-            ACTIVITY_LIST.forEach((ip,activity)-> minActivityIps.add(ip));
-            //最小活跃数ip大于1则根据权重来选，选权重最大的优先
-            if(minActivityIps.size() > 1){
+            ACTIVITY_LIST.forEach((ip, activity) -> {
+                if (activity == minActivity) {
+                    minActivityIps.add(ip);
+                }
+            });
+
+            // 3. 判断最小活跃数服务器数量
+            if(minActivityIps.size() == 1){
+                // 只有一个最小活跃数服务器，直接返回
+                return minActivityIps.get(0);
+            }else{
+                // 4. 多个最小活跃数服务器，根据权重选择
                 LinkedHashMap<String, Integer> weightList = new LinkedHashMap<>();
-                ServerIps.WEIGHT_LIST.forEach((ip,weight)->{
-                     if(minActivityIps.contains(ip)){
-                         weightList.put(ip,ServerIps.WEIGHT_LIST.get(ip));
-                     }
+                ServerIps.WEIGHT_LIST.forEach((ip, weight) -> {
+                    if(minActivityIps.contains(ip)){
+                        weightList.put(ip, weight);
+                    }
                 });
 
+                // 5. 计算总权重，判断权重是否相同
                 int totalWeight = 0;
-                boolean sameWeight = true; //所有权重相等随机一个ip
-                Object[] weights = weightList.values().toArray();
-                for(int i = 0; i<weights.length ; i++){
-                    Integer weight =  (Integer) weights[i];
+                boolean sameWeight = true;
+                List<Integer> weights = new ArrayList<>(weightList.values());
+                for(int i = 0; i < weights.size(); i++){
+                    Integer weight = weights.get(i);
                     totalWeight += weight;
-                    if(sameWeight && i > 0 && !weight.equals( weights[i-1])){
+                    if(sameWeight && i > 0 && !weight.equals(weights.get(i-1))){
                         sameWeight = false;
                     }
                 }
-                Random random = new Random();
-                int randomPos = random.nextInt(totalWeight);
 
+                // 6. 根据权重选择
+                Random random = new Random();
                 if(!sameWeight){
+                    // ✅ 使用加权随机选择（累计权重）
+                    int randomPos = random.nextInt(totalWeight);
+                    int cumulativeWeight = 0;
                     for(String ip : weightList.keySet()){
-                        Integer value = weightList.get(ip);
-                        if(randomPos < value){
+                        cumulativeWeight += weightList.get(ip);
+                        if(cumulativeWeight > randomPos){
                             return ip;
                         }
-                        randomPos -= value;
                     }
                 }
-
-                return (String)weightList.keySet().toArray()[new Random().nextInt(weightList.size())];
-
-
-            }else {
-                return minActivityIps.get(0);
+                // 权重相同，随机选择一个
+                return minActivityIps.get(random.nextInt(minActivityIps.size()));
             }
-
         }else{
-            return (String)ServerIps.WEIGHT_LIST.keySet().toArray()[new Random().nextInt(ServerIps.WEIGHT_LIST.size())];
-
+            // 没有找到最小活跃数，随机选择一个
+            List<String> allIps = new ArrayList<>(ServerIps.WEIGHT_LIST.keySet());
+            return allIps.get(new Random().nextInt(allIps.size()));
         }
-
     }
 
     public static void main(String[] args) {

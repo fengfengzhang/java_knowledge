@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algroithm_structdata/target/classes/com/zhangfeng/leetcode/LeetCode55.class" beforeDir="false" afterPath="$PROJECT_DIR$/algroithm_structdata/target/classes/com/zhangfeng/leetcode/LeetCode55.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +329,7 @@
       <workItem from="1764312691434" duration="185000" />
       <workItem from="1764818734931" duration="1236000" />
       <workItem from="1764829745684" duration="330000" />
-      <workItem from="1765186883644" duration="852000" />
+      <workItem from="1765186883644" duration="1931000" />
     </task>
     <servers />
   </component>

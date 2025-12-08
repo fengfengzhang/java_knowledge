@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algroithm_structdata/target/classes/com/zhangfeng/leetcode/LeetCode22.class" beforeDir="false" afterPath="$PROJECT_DIR$/algroithm_structdata/target/classes/com/zhangfeng/leetcode/LeetCode22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algroithm_structdata/target/classes/com/zhangfeng/leetcode/LeetCode55.class" beforeDir="false" afterPath="$PROJECT_DIR$/algroithm_structdata/target/classes/com/zhangfeng/leetcode/LeetCode55.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.LeetCode239.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
@@ -55,6 +56,7 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/zhangfeng/idea_worksapce/java_knowledge&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -73,9 +75,22 @@
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode55">
+  <component name="RunManager" selected="Application.LeetCode239">
     <configuration name="LeetCode22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode22" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode239" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -126,35 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode739" />
-      <module name="algroithm_structdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode239" />
         <item itemvalue="Application.LeetCode55" />
         <item itemvalue="Application.LeetCode22" />
         <item itemvalue="Application.LeetCode24" />
         <item itemvalue="Application.LeetCode394" />
-        <item itemvalue="Application.LeetCode739" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-gosdk-266795519c66-911b893a1778-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-233.13135.104" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -320,7 +315,22 @@
       <workItem from="1758535683466" duration="2226000" />
       <workItem from="1760520427624" duration="1572000" />
       <workItem from="1760609171512" duration="1581000" />
-      <workItem from="1761549533776" duration="3133000" />
+      <workItem from="1761549533776" duration="3716000" />
+      <workItem from="1762938165697" duration="5826000" />
+      <workItem from="1763610438973" duration="15000" />
+      <workItem from="1763610576346" duration="15000" />
+      <workItem from="1763618367457" duration="14000" />
+      <workItem from="1763618854864" duration="2102000" />
+      <workItem from="1763632772339" duration="336000" />
+      <workItem from="1764227359080" duration="1584000" />
+      <workItem from="1764228963774" duration="17000" />
+      <workItem from="1764230281754" duration="4009000" />
+      <workItem from="1764297450265" duration="15000" />
+      <workItem from="1764297584040" duration="62000" />
+      <workItem from="1764312691434" duration="185000" />
+      <workItem from="1764818734931" duration="1236000" />
+      <workItem from="1764829745684" duration="330000" />
+      <workItem from="1765186883644" duration="852000" />
     </task>
     <servers />
   </component>
@@ -388,6 +398,16 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode22.java</url>
           <line>31</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode55.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode239.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

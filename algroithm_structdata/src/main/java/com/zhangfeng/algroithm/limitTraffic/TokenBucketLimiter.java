@@ -16,7 +16,7 @@ public class TokenBucketLimiter implements TrafficLimiter{
     public synchronized Boolean limit() {
         long now = System.currentTimeMillis();
         //先添加令牌
-        tokens = Math.min(capacity, tokens + (now - timeStamp) * rate);
+        tokens = Math.min(capacity, tokens + (now - timeStamp) /1000 * rate);
         timeStamp = now;
          if(tokens < 1){
              //若不到1个令牌，则拒绝

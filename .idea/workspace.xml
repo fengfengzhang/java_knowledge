@@ -44,6 +44,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.LeeCode100.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeetCode239.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LeetCode480 (1).executor&quot;: &quot;Debug&quot;,
     &quot;Application.LeetCode480 (2).executor&quot;: &quot;Run&quot;,
@@ -339,7 +340,8 @@
       <workItem from="1765361967422" duration="1407000" />
       <workItem from="1765450769533" duration="623000" />
       <workItem from="1765769657039" duration="311000" />
-      <workItem from="1765855784645" duration="652000" />
+      <workItem from="1765855784645" duration="2122000" />
+      <workItem from="1766023976561" duration="8000" />
     </task>
     <servers />
   </component>
@@ -432,6 +434,11 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode480.java</url>
           <line>70</line>
           <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeeCode100.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

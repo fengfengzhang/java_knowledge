@@ -8,7 +8,7 @@ package com.zhangfeng.leetcode;
  */
 
 import java.util.*;
-public class LeeCode443 {
+public class LeetCode443 {
 
     /**
      * 基因序列可以表示为一条由 8 个字符组成的字符串，其中每个字符都是 'A'、'C'、'G' 和 'T' 之一。
@@ -112,7 +112,7 @@ public class LeeCode443 {
 
 
 public static void main(String[] args) {
-        LeeCode443 leeCode443 = new LeeCode443();
+        LeetCode443 leeCode443 = new LeetCode443();
         System.out.println(leeCode443.minMutation("AACCGGTT", "AAACGGTA",
                 new String[]{"AACCGGTA", "AACCGCTA", "AAACGGTA"}));
     }

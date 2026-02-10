@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="" />
+    <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +53,7 @@
     "Application.LeetCode480 (4).executor": "Debug",
     "Application.LeetCode480 (5).executor": "Debug",
     "Application.LeetCode480.executor": "Debug",
+    "Application.LeetCode78.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -80,7 +83,7 @@
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeeCode443">
+  <component name="RunManager" selected="Application.LeetCode78">
     <configuration name="LeeCode443" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeeCode443" />
       <module name="algroithm_structdata" />
@@ -96,19 +99,6 @@
     </configuration>
     <configuration name="LeetCode100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode100" />
-      <module name="algroithm_structdata" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode480 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode480" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -185,13 +175,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeetCode78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode78" />
+      <module name="algroithm_structdata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhangfeng.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode78" />
         <item itemvalue="Application.LeeCode443" />
         <item itemvalue="Application.LeetCode100" />
         <item itemvalue="Application.LeetCode480 (2)" />
         <item itemvalue="Application.LeetCode480" />
-        <item itemvalue="Application.LeetCode480 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -388,6 +391,7 @@
       <workItem from="1768966599530" duration="624000" />
       <workItem from="1768979126717" duration="1177000" />
       <workItem from="1769518082867" duration="1322000" />
+      <workItem from="1770692866530" duration="666000" />
     </task>
     <servers />
   </component>
@@ -490,6 +494,11 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeeCode443.java</url>
           <line>30</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode78.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

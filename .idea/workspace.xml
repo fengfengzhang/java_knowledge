@@ -42,48 +42,49 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LeeCode100.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeeCode443.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode239.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LeetCode480 (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LeetCode480 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode480 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LeetCode480 (4).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LeetCode480 (5).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LeetCode480.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LeetCode78.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhangfeng/idea_worksapce/java_knowledge&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LeeCode100.executor": "Run",
+    "Application.LeeCode443.executor": "Run",
+    "Application.LeetCode239.executor": "Debug",
+    "Application.LeetCode480 (1).executor": "Debug",
+    "Application.LeetCode480 (2).executor": "Run",
+    "Application.LeetCode480 (3).executor": "Run",
+    "Application.LeetCode480 (4).executor": "Debug",
+    "Application.LeetCode480 (5).executor": "Debug",
+    "Application.LeetCode480.executor": "Debug",
+    "Application.LeetCode60.executor": "Run",
+    "Application.LeetCode78.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/zhangfeng/idea_worksapce/java_knowledge",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/juejin" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode78">
+  <component name="RunManager" selected="Application.LeetCode60">
     <configuration name="LeeCode443" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeeCode443" />
       <module name="algroithm_structdata" />
@@ -162,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode480" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode480" />
+    <configuration name="LeetCode60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhangfeng.leetcode.LeetCode60" />
       <module name="algroithm_structdata" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode60" />
         <item itemvalue="Application.LeetCode78" />
         <item itemvalue="Application.LeeCode443" />
         <item itemvalue="Application.LeetCode100" />
         <item itemvalue="Application.LeetCode480 (2)" />
-        <item itemvalue="Application.LeetCode480" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +393,7 @@
       <workItem from="1768979126717" duration="1177000" />
       <workItem from="1769518082867" duration="1322000" />
       <workItem from="1770692866530" duration="1317000" />
-      <workItem from="1770704395036" duration="504000" />
+      <workItem from="1770704395036" duration="2394000" />
     </task>
     <servers />
   </component>
@@ -495,6 +496,16 @@
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeeCode443.java</url>
           <line>30</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode60.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode60.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

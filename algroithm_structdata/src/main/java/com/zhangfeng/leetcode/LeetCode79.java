@@ -22,12 +22,34 @@ public class LeetCode79 {
     public boolean exist(char[][] board, String word) {
 
         boolean res = false;
+
+        int[] wordCont = new int[128];
+        int[] cn = new int[128];
+        for(int i = 0; i < board.length ; i++){
+            for(int j = 0; j < board[0].length ; j++){
+                cn[board[i][j]] ++;
+            }
+        }
+
+        for(int i = 0; i < word.length() ; i++){
+            wordCont[word.charAt(i)] ++;
+            if(wordCont[word.charAt(i)] > cn[word.charAt(i)]){
+                return  res;
+            }
+        }
+
+        String w = word;
+        if(wordCont[word.charAt(word.length()- 1)] < wordCont[word.charAt(0)]){
+            w = new StringBuilder(word).reverse().toString();
+        }
+
+
         boolean[][] flag = new boolean[board.length][board[0].length];
         for(int i = 0; i < board.length ; i++){
             for(int j = 0; j < board[i].length ; j ++){
 
-                if(board[i][j] == word.charAt(0)){
-                    res = process(i,j,0,word,board,flag);
+                if(board[i][j] == w.charAt(0)){
+                    res = process(i,j,0,w,board,flag);
                 }
 
                 if(res){

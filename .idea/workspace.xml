@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="536369c5-0db4-4be0-8ebc-efb62f144674" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode79.java" beforeDir="false" afterPath="$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode79.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     "Application.LeetCode480.executor": "Debug",
     "Application.LeetCode60.executor": "Run",
     "Application.LeetCode78.executor": "Run",
-    "Application.LeetCode79.executor": "Debug",
+    "Application.LeetCode79.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -385,7 +386,7 @@
       <workItem from="1770704395036" duration="9359000" />
       <workItem from="1770792026641" duration="4299000" />
       <workItem from="1770798737399" duration="2357000" />
-      <workItem from="1770951314537" duration="1615000" />
+      <workItem from="1770951314537" duration="3683000" />
     </task>
     <servers />
   </component>
@@ -511,12 +512,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode79.java</url>
-          <line>35</line>
+          <line>70</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algroithm_structdata/src/main/java/com/zhangfeng/leetcode/LeetCode79.java</url>
-          <line>13</line>
+          <line>23</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
